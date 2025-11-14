@@ -17,7 +17,7 @@ nomes.shift()
 //console.log('Execução número: ' + index)
 
 nomes.forEach((nomes, index) => {
-  console.log('Execução número: ' + index)
+  console.log('Execução número: ',  index +1)
   console.log(nomes)
   console.log('------------------')
 })
