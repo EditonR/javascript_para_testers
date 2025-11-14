@@ -4,15 +4,14 @@
 //Pode ou não receber parâmetros
 //Pode ou não retornar dados
 
-function gerarNome() {
-  const nome = 'Eddie'
-  const sobrenome = 'Silva'
-  const idade = 27
+function gerarNome(nome, sobrenome, idade) {
+  
 
   console.log( 'Nome: ',  nome  ,  sobrenome )
   console.log('Idade: ', idade)
 }
 
-gerarNome()
+gerarNome('Claudio', 'Junior', 22)
+gerarNome('Marcos', 'Baunilha', 90)
+gerarNome('Franci', 'Monato', 40)
 
-//Serve para temos bloco de código p/ ser executados.
